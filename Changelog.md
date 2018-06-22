@@ -1,5 +1,9 @@
 Changelog for Freifunk Düsseldorf gluon firmware
 
+v1.5.10 (Gluon 2017.1.8)
+--------------------------------
+- New Gluon Release 2017.1.8
+
 v1.5.9 (Gluon 2017.1.7)
 --------------------------------
 - New Gluon Release 2017.1.7
