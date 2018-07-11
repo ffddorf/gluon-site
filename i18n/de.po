@@ -16,6 +16,17 @@ msgstr ""
 "Knoten. Fülle das folgende Formular deinen Vorstellungen"
 "entsprechend aus und sende es ab."
 
+msgid "gluon-config-mode:domain"
+msgstr "Domäne / Postleitzahl"
+
+msgid "gluon-config-mode:domain-select"
+msgstr ""
+"Hier hast du die Möglichkeit, die Mesh-Domäne, in der sich dein Knoten "
+"befindet, auszuwählen. Bitte denke daran, dass sich dein Knoten nur mit den "
+"Knoten der ausgewählten Domäne verbinden kann. Bitte wähle die Domäne anhand der Postleitzahl. "
+"Falls deine Postleitzahl nicht aufgeführt wird, verwende bitte eine andere Firmware."
+"Dieses Feld muss ausgefüllt werden um das Setup abzuschließen"
+
 msgid "gluon-config-mode:pubkey"
 msgstr ""
 "Dies ist der öffentliche Schlüssel deines Freifunkknotens."
@@ -32,3 +43,29 @@ msgstr ""
 "Freifunk Düsseldorf findest du auf"
 "<a href=\"https://forum.freifunk.net/\">unserem Forum</a>.</p>"
 "<p>Viel Spaß bei der Erkundung von Freifunk!</p>"
+
+msgid "gluon-config-mode:altitude-label"
+msgstr "Höhe"
+
+msgid "gluon-config-mode:altitude-help"
+msgstr ""
+"Die Höhenangabe ist optional und sollte nur gesetzt werden, wenn ein "
+"exakter Wert bekannt ist."
+
+# Leave empty to use the default text, which can be found in:
+# package/gluon-config-mode-hostname/i18n/
+msgid "gluon-config-mode:hostname-help"
+msgstr ""
+
+# Leave empty to use the default text, which can be found in:
+# package/gluon-config-mode-geo-location/i18n/
+msgid "gluon-config-mode:geo-location-help"
+msgstr ""
+
+# Leave empty to use the default text, which can be found in:
+# package/gluon-config-mode-contact-info/i18n/
+msgid "gluon-config-mode:contact-help"
+msgstr ""
+
+msgid "gluon-config-mode:contact-note"
+msgstr ""

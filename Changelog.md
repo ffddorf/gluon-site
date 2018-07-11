@@ -1,4 +1,10 @@
-Changelog for Freifunk Düsseldorf gluon firmware
+Changelog for Freifunk Düsseldorf & Neuss gluon firmware
+
+v1.6.1 (Gluon 2018.1.1)
+--------------------------------
+- New Gluon Release 2018.1.1
+- Switched config to multidomain
+- Included migrator gluon package to move nodes to correct subdomain after flashing
 
 v1.6.0 (Gluon 2018.1)
 --------------------------------
