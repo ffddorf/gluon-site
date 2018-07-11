@@ -1,6 +1,7 @@
 GLUON_FEATURES := \
 	autoupdater \
 	alfred \
+	config-mode-domain-select \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \
@@ -16,6 +17,7 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
 	gluon-autorestart \
 	gluon-tunneldigger-watchdog \
+	gluon-domain-migrator \
 	iwinfo \
 	haveged
 
@@ -75,3 +77,5 @@ GLUON_LANGS ?= en de
 GLUON_ATH10K_MESH ?= 11s
 
 GLUON_REGION := eu
+
+GLUON_MULTIDOMAIN=1

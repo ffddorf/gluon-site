@@ -1,0 +1,2999 @@
+{
+    "timestamp": "2018-08-29T21:27:48.709Z",
+    "remigrate": false,
+    "version": "1",
+    "nodes": [
+        {
+            "node_id": "30b5c2d998ea",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e327cf0c00",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d404c74",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "c4e984f06f2a",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "a42bb0d71cf8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "98ded0b988ba",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "e8de2758873a",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "18a6f7ce0276",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "f4f26d49959a",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "a0f3c1824d0a",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "60e327bea574",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "6872514c4477",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "6872514c4515",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e327b80d7a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "a0f3c15b6672",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "60e3279abe86",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "f4f26d3f04b8",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "a0f3c148d9a4",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "60e327821290",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "60e327601f82",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "24a43ce41c7e",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "802aa8a0dd11",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "98ded0d5bede",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "98ded0d5c4fc",
+            "domain": "ffddorf_dom7"
+        },
+        {
+            "node_id": "f81a67a5fd0e",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "f4f26df1b38a",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "c4e984f7b6de",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "ec086b615764",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "c4e984f7b6d2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e96ee",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c4e984f7b5de",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e96fc",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1fb693ee",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c20ea4fe",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc20cd1e5e",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "30b5c2e3019a",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "30b5c26efef4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc20b96964",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc2053d476",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "ec086b787912",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20adfabc",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "c46e1fd665ee",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc2085614e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086ba4cba0",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "14cc20cd4ba4",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c4e984f7c7a6",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "c46e1f41eed6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc20b0fb40",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e3279aab38",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26daf35b5",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1f0d2936",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e3279aaa18",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759c21c",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1fc71d4a",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "e894f62ad350",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "14cc20cd52ec",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "14cc20b96a5a",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "30b5c2ee0cdc",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "a42bb0d717a6",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1fa1229c",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e32759bf88",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1ffe4132",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "30b5c28861d4",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "60e3279aab9e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759c106",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c20ea3b4",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "14cc20cd2d54",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c4e984c84a80",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "18a6f7053306",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "a42bb0d71a9a",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "30b5c23e96e6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e9564",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1f316f70",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c23e955e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759c140",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c26f05b4",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc203b28fc",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "f4f26df1bcc8",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "e8de2755c962",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c4e984be2eac",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "a42bb0ad7664",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "30b5c2816306",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759c1de",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e327b80cd6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c2814270",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "e894f690c542",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c26f295a",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "30b5c23e847c",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "e894f6a1f76a",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "a42bb0ada212",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20e1400c",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "30b5c23e94c0",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a42bb0ca9ba2",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e3278216c8",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "60e327c4b018",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1fe89ee6",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c28118c8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759c286",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26d6d292d",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "60e32759c1d6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "d85d4cd7c40a",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "30b5c2885f96",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "60e32759fa4a",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "c46e1fb37e04",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "a42bb0a222f0",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "60e32759c164",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e327c4ac1c",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e3275a38d8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e8de275fb81c",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e32759c190",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f81a6730e712",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "60e32759bf4c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "6470023eaa70",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "14cc20b2cadc",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "c4e9849135b0",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "e894f6cd6806",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "30b5c2ee0d2e",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "ec086b7879ce",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1faf4d08",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327bdeb04",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "14cc206f0d38",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a0f3c13668b0",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e327e765fa",
+            "domain": "ffddorf_dom3"
+        },
+        {
+            "node_id": "e894f629fb20",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "60e3275a05b6",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "30b5c2ee48e2",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "14cc203b4956",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a0f3c19f0eac",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "ec086bf7d40e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e32759c1c0",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc2070a88a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e894f62abfc6",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "14cc206e1254",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "a0f3c136b006",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "14cc20b0fb26",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc20c25114",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e32759c1da",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c4e98491363d",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "14cc20634cfa",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "14cc206e25ae",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "e894f690a26c",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e327b79460",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e327763022",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "24a43c903d87",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e894f64b2fc8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "0023cdc7516c",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e32759c078",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e327818c2c",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e32759bde2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc209a9190",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "60e32759c694",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e8de27f92b50",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "e894f64b2f56",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e8de2755c960",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "8416f92a6dd6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e894f6d46b12",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c4e984b5cc6c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "c4e984f5519c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a0f3c17ccfba",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "6872514c797e",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "e894f62a945a",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327bdeb02",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "60e327b81782",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "14cc20b0fcd4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "6872516205f3",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "30b5c20e891e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "68725168a3ba",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "30b5c22b9c2d",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e894f6685a92",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "60e32759c0b2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1f2c5bfc",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1fde3dea",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e32781ecfa",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c25d0aaa",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "14cc206e139e",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e3279aabc8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c2ad5ae6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e32759ff2c",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "6872514c770b",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "60e32760111a",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "90f65292375a",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "14cc206e1838",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "18a6f74b9a90",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "30b5c2810e8c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e9686",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "18a6f7051806",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "30b5c2e2f562",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327c4aefc",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c23e8542",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c20e82e8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "18a6f7b0afcc",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327c4afd8",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e32759c1fc",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759bf14",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26ddcd88e",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "ec086b6c5bd4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c2cb36d0",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "60e327c4aea8",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c23e95e4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e94c6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e9e34",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20b97938",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "90f652a7650e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "6872511a5217",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "14cc20a946a8",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1fc55198",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "60e327bdeaf6",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "60e327e74b94",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1ffed2b6",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c274c47c",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "60e32759c662",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e9632",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e894f6a1f6c4",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "14cc208592c2",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "60e3279f5da6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e96f6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "6872512ec2b7",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "c46e1ffef736",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c222fa1e",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "e894f6f32305",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc2063070a",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "c4e984f550c8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32759c1cc",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "802aa8513f25",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e32759c072",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c274a7ae",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "14cc20a46438",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "54e6fce63150",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc208740e6",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "18a6f7c5dd96",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c2da0708",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c23e96fe",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "98ded09216b8",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c2810ed4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e894f629f86e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1fb37f2a",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "14cc202b8e97",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "30b5c23e80b2",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "14cc20e15890",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "ec086b8ad2ca",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c2edfddc",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "60e327605932",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "e8de27f2df04",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "f4f26dd5f60a",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c2cb3652",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "f8d11180510e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e32759ff40",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "30b5c2876898",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c2c2cebc",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "14cc2042afaa",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "8416f92a6fe2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e327bdeadc",
+            "domain": "ffddorf_dom3"
+        },
+        {
+            "node_id": "a42bb0a230c4",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "c46e1fdf0718",
+            "domain": "ffddorf_dom3"
+        },
+        {
+            "node_id": "c4e9847dd68b",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "ec086b8a8a58",
+            "domain": "ffddorf_dom3"
+        },
+        {
+            "node_id": "60e327818bf8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "90f65280d7b8",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "a42bb0b0ebb8",
+            "domain": "ffddorf_dom3"
+        },
+        {
+            "node_id": "68725120653c",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1f9e4490",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "c46e1fdeebde",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "60e327be16f6",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "30b5c2ee1c64",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "18a6f7b76f34",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc2062f776",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e327819918",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "c46e1fa22c42",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "e894f6a1ecfc",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "60e3275fffd8",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "e894f67830ba",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "60e327bdea4c",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "a42bb0ada178",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e32781ee14",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "c46e1fa24f80",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "60e327b78d52",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc20874a08",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1f2d96f8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "a42bb0ca8e4a",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "68725102861a",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e327c4b090",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "18a6f7d31c42",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1f7a97a8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c46e1fe82fd0",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "30b5c23e953e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e32781fd62",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "60e327b80d4a",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "18a6f7b0ae1e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20cd0eac",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c46e1f820d80",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e327c78146",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "c4e984b0d1b8",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c2b04e42",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "98ded0b99294",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "98ded0d5e778",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "60e327bd9e4a",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "30b5c2bd72d0",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc20874a6e",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1fc71d76",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "18a6f72b8068",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "18a6f7278838",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c46e1f63156e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "30b5c23e9024",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c23e9200",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "98ded0d5bd2e",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "18a6f78b7578",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20b0fca2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1fe748f0",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "98ded0d6254a",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "f4f26ddcd8c4",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e327c49fdc",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc20630920",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "687251680a72",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "98ded0b98086",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "a42bb0cc1044",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "98ded0d5ae58",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "ec086b6c5dbe",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "ec086b6c541c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a42bb0a396a6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c288618e",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "60e327bdbeb2",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "c46e1f9e493a",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc206eff6e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a42bb0ada360",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "30b5c2b04ef4",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "a42bb0a22468",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "98ded0a8cfdc",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20b4fcf6",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "0418d6a41f71",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "0418d6a41c5a",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "0023cd1fec46",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "d85d4cae38f0",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "b0487abb46de",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "90f652922cc2",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "90f652923752",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "8416f9e8a6a4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e3275a03e4",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "c46e1fc70b78",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "8416f9e8a574",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "8416f969117a",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c2c2b190",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "14cc203b2696",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c23e7fb6",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "c04a002cfc0c",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "8416f9e89084",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "e894f629fa6e",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "ec086bf137a2",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "f4f26d528ebe",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "18a6f7e5f04e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c6614",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1fd1f26c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "98ded0b980fc",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "60e32759c0fc",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "98ded0243112",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "98ded0243114",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "8416f9af7670",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c2c2e376",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26df2a100",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c5dea",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc206ecaa2",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c29ef650",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "30b5c2c69316",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "0418d60cc889",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "e8de27658533",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "ec086b594856",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "8416f968d540",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "0030842abb5e",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c2c297f0",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "c04a0061df1c",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "6466b3fcb696",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "a42bb0b0fc06",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "a42bb0a22988",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "802aa81167c8",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c46e1fd668ae",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086b594886",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "f4f26df195d6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d407b3a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c4e984b5ef5e",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "60e327b80da2",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "ec086bf14272",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086bf1251c",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bf36de00",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "50c7bf3553fe",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "001999661f5f",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "940c6da28a70",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "f4f26dff60b4",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "30b5c26941d5",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "8416f9e42846",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "f4f26d3fc1d6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c0a0bbf1f9a6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c0a0bbf20522",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e8de275fb4a0",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "90f652f268fa",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "ec086bf12812",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "8416f99bb2c0",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c4e984ef424a",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "ec086b5947ec",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "f4f26d49ebd4",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "14cc20e15cb8",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "ec086bf12894",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "e8de275907d7",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327bdeac4",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "10feed568122",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "18d6c78ffd48",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "f4f26d498b9c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "14cc20e140dc",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327bdeb1a",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "ec086b8acfd8",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086bec293c",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "00199960f53f",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "687251643188",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e3278194ec",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "14cc203b18bc",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "10feedc60055",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c23e971c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e327bdeaee",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "50c7bfd8e168",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "60e327be071c",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327c78656",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20b4e598",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "c4e984f0a4fa",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "f8d11123c1d3",
+            "domain": "ffddorf_dom7"
+        },
+        {
+            "node_id": "d46e0ef5c35a",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "d46e0ef5c2d2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "50c7bfd8e7a6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "d46e0ed032c4",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "18d6c751668e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "d46e0ed03290",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26df2a146",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "18d6c7516578",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "18d6c75165fc",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "940c6daea51e",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "44d9e72a4829",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "802aa8e4b95b",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "ec086b350dae",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c2d9f624",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "50c7bfd8e4e8",
+            "domain": "ffddorf_dom10"
+        },
+        {
+            "node_id": "30b5c23e820c",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "90f65263c28a",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "50c7bfd8dfbc",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "647002d1632a",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "ec086b6c5d9c",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "d46e0ed032b0",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "8416f9aeaf4e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "18d6c7519894",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3f0d80",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4ec38f09bb8",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc20a927a4",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c04a002d433e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "18d6c76ae80c",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "18a6f759ee26",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "f81a673e72f8",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "a42bb0ca8636",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "50c7bfd8e75e",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "50c7bf16aa4c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "a42bb0ada2be",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "50c7bf188500",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "98ded0a8b9b8",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "e894f67834b6",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "c46e1f58a214",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c4e984f7b6ba",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26d859fd0",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "d46e0e366a0e",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1fa25562",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "14cc20a91fc2",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c46e1fdeadde",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "d46e0e36d7d9",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "d46e0e368502",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "d46e0e36bd18",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "d46e0e36846f",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "8416f9aef176",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "c4e984f559be",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "50c7bf796f10",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "704f5733b19c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "704f5733b3ae",
+            "domain": "ffddorf_dom3"
+        },
+        {
+            "node_id": "ec086bf93b61",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "98ded0e0ea00",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "18a6f7b0300a",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "647002f72d00",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc20704e6a",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "54e6fcafeedc",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "18a6f790facc",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "60e3279f4c18",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "c4e9847dcff8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c46e1f9e7cb6",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "98ded031858c",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "10feedb74a1c",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "a0f3c13cc9fd",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "e894f6508d2e",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "60e327edca44",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "14cc203b3054",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e9714",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "ec086b8acafc",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086b7870b2",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "e894f6f30eaa",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "18a6f7b0ac82",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086b8accae",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "50c7bf569c2e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f8d1118dac06",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "6466b3a24266",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "6872512064ff",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "687251206557",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c4e984c84b84",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "50c7bf569c46",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "50c7bf168ede",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "68725120672f",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "18a6f70517c0",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "f81a675a63f4",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "f4f26d3f8f2c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "ec086b5948be",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "704f57c6be7c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "704f57c6d4e6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f57c6f4f2",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f57c6aed4",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d85cc92",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "18a6f7e5c34c",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "647002a90cfd",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "704f57c6f4e4",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f57455e12",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c2e2ff32",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "30b5c2e30198",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "14cc20874f2a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "0418d60cc9a8",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "d46e0e36bc01",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "704f57c6ae0a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bf16a2ee",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f57c6cb9a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "8416f95b8754",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "f81a675a8887",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "18d6c7516000",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "10feed3990f2",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "c04a00fee372",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "647002d15fec",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "c8d3a365ef67",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f8d111b9a700",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "e894f6d13b7e",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "0418d665dc30",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "18a6f759de46",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "30b5c23e8194",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c23e8288",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c23e81ea",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c46e1f7eb648",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c52a6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c23e9734",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c2b050a0",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bfbc53ea",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "14cf9286b086",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "30b5c2cb33ba",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "d85d4cf2b602",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "f09fc2821f25",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "704f57c6d064",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f57c6e264",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26df2a112",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bfbc6be8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26d3e6dbe",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e6f08",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e6e08",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e6e96",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e6e1e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e66c2",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e6f30",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "f4f26d3e6a7c",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "14cc20b4f222",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "d46e0ed033d0",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26d85ae56",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "b8a3864cdd5c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "60e327b80dac",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c23e9438",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26d3ed030",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1fdecbf6",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "6466b34feeb4",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "a42bb0cc29c7",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "a42bb0a38ca3",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "18a6f79d3b46",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "704f57c7109c",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e327f51606",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c23e843c",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "8a6c0e91f1fb",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c280ebb0",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "a42bb0b15676",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "30b5c28863fc",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086bf14504",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "50c7bf6c98f2",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "50c7bfbc3bce",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "50c7bfbc60dc",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "50c7bfbc4c3c",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "50c7bfbc481a",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "704f5783acbc",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "30b5c2b0522e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bf16a36a",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "18a6f7ccd9f4",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "8416f9e88c70",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "60e327c6fa72",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e327c6fa78",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e32760540a",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "30b5c20ec9b6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "e894f6fbe351",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "f4f26d407832",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "788a20bf9621",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "54e6fce61da8",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "e894f6682d4c",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "e894f66ce2f4",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "002722c8a1b9",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bf16a2e0",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f57457de6",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "c4e984b5fede",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "704f57c6bd78",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "ec086b5947de",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "687251661366",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c0a0bbf1f8ea",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "14cc20a921f6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "14cc20a921d6",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c5b58",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "30b5c23e96be",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "50c7bfbc7e08",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "704f57457522",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "c4e984b5cccc",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "c46e1f9e40d6",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "e4956e4316d3",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "525400361f3e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e894f6aab204",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "a42bb0a37f49",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "704f57af1dc0",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "18d6c751668a",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "a42bb0ca83fc",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "d46e0ef5cca2",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "788a20bdb018",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "50c7bfbc5500",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "50c7bfbc7856",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "802aa81e8771",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "18a6f7cdbefc",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "a42bb0d17d10",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "8416f9e8d1ec",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c2e301e8",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "30b5c2edd33c",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "18a6f75a0b22",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "14cc20e15836",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "18d6c7515212",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "50c7bf569aae",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "a0f3c136ad40",
+            "domain": "ffddorf_dom6"
+        },
+        {
+            "node_id": "c46e1f62f622",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "8416f96c7031",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "60e327cec2cc",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c2ffd386",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "687251408ba1",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "50c7bfbc530c",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "802aa82c7c08",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "60e327ee1e48",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e32724312e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c26ef9b4",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "b04e2692b498",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "c4e984b5d890",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "000c29d90aa3",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "001999df15b7",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "18d6c751a93e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c0a0bbf1f942",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "60e327602d00",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086ba8f4f0",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f578aa3f1",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "e8de27d61210",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "14cc20f8971c",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "74ea3aeb6d7a",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e327c765d6",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "b04e26d35ac8",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "c4e984b2baa4",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "a42bb0ada5be",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "e894f6854b30",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c4e984b5cc8a",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c2e2f35a",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "ec086b6c5b6e",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "30b5c23e969e",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "b04e26749462",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "b04e2674a566",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "704f57c6af02",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b35282c",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c4e984713f04",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "30b5c2c26064",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c04a00a1c836",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e894f64b8018",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "14cc206ee3ae",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "c46e1fe77756",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "b04e26c3ed1c",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "c04a00057ce2",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "704f57c70648",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "f4f26de104c8",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "b04e26c3fb4c",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "10feedf4fc04",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e8de2725d2ac",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "60e32772367a",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "788a20be62f3",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "10feedcc4572",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "30b5c2ee9bae",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "60e3279ac286",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "a42bb0ada294",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "14cc204d33f0",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1f2c78e2",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1f871e50",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "c46e1fb2c5c6",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "fcecda7109c0",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "8416f99baf86",
+            "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c2ac456c",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "30b5c26efe16",
+            "domain": "ffddorf_dom5"
+        },
+        {
+            "node_id": "c46e1fb2c564",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "dc9fdb9653e9",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "a42bb0efefe2",
+            "domain": "ffneuss_dom0"
+        },
+        {
+            "node_id": "802aa85f806f",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "b04e26dfbb58",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc203b53ca",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c46e1f701c24",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "f4f26dff3806",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "c46e1fb2c57a",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "60e327be8c92",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "b04e26299f24",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "647002df6266",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "60e327719a40",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "f8d111804c6a",
+            "domain": "ffddorf_dom1"
+        },
+        {
+            "node_id": "0023cd1a4e92",
+            "domain": "ffddorf_dom0"
+        },
+        {
+            "node_id": "60e32781e452",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "d46e0ed0299a",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "f4f26daf338d",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "14cc206306d8",
+            "domain": "ffneuss_dom2"
+        },
+        {
+            "node_id": "68725124fd99",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "687251206445",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "b04e26c3ed4c",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "c46e1faa78c4",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc206eca0c",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "e8de27dd6a26",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "c46e1fff2490",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "14cc20705ac4",
+            "domain": "ffddorf_dom9"
+        },
+        {
+            "node_id": "98ded0b93754",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "f4f26d94ab42",
+            "domain": "ffneuss_dom1"
+        },
+        {
+            "node_id": "14cc206a12a4",
+            "domain": "ffneuss_dom4"
+        },
+        {
+            "node_id": "98ded09207fa",
+            "domain": "ffddorf_dom4"
+        },
+        {
+            "node_id": "ec086b6c5408",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c5cd8",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c5326",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c5182",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "ec086b6c52c2",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "704f5783bccc",
+            "domain": "ffneuss_dom3"
+        },
+        {
+            "node_id": "50c7bfbc3d5e",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c46e1fb8f50e",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "c46e1f3b2e46",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "b04e26d35d6e",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "a42bb0ca8a72",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "10feedc2408c",
+            "domain": "ffddorf_dom2"
+        },
+        {
+            "node_id": "fcecda7289e2",
+            "domain": "ffddorf_dom8"
+        },
+        {
+            "node_id": "a42bb0a22598",
+            "domain": "legacy"
+        },
+        {
+            "node_id": "e8de27f6e316",
+            "domain": "legacy"
+        }
+    ]
+}
