@@ -24,7 +24,7 @@ msgstr ""
 "is placed. Please keep in mind that your router only connects with the nodes "
 "of the selected domain. "
 "Please select the domain on the basis of the ZIP code. "
-"This field is mandatory and needs to be filled out"
+"This field is mandatory and needs to be filled out to finish the setup."
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""

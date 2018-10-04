@@ -149,7 +149,7 @@
         },
         {
             "node_id": "14cc20b96964",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom3"
         },
         {
             "node_id": "14cc2053d476",
@@ -349,7 +349,7 @@
         },
         {
             "node_id": "30b5c23e847c",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom3"
         },
         {
             "node_id": "e894f6a1f76a",
@@ -561,7 +561,7 @@
         },
         {
             "node_id": "60e327b79460",
-            "domain": "legacy_neuss"
+            "domain": "ffddorf_dom0"
         },
         {
             "node_id": "60e327763022",
@@ -745,7 +745,7 @@
         },
         {
             "node_id": "30b5c23e8542",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom3"
         },
         {
             "node_id": "30b5c20e82e8",
@@ -1137,7 +1137,7 @@
         },
         {
             "node_id": "60e327b80d4a",
-            "domain": "ffddorf_dom5"
+            "domain": "legacy"
         },
         {
             "node_id": "18a6f7b0ae1e",
@@ -1289,7 +1289,7 @@
         },
         {
             "node_id": "30b5c2b04ef4",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom3"
         },
         {
             "node_id": "a42bb0a22468",
@@ -1421,7 +1421,7 @@
         },
         {
             "node_id": "f4f26df2a100",
-            "domain": "legacy"
+            "domain": "ffneuss_dom5"
         },
         {
             "node_id": "ec086b6c5dea",
@@ -1773,7 +1773,7 @@
         },
         {
             "node_id": "f4ec38f09bb8",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom1"
         },
         {
             "node_id": "14cc20a927a4",
@@ -1797,7 +1797,7 @@
         },
         {
             "node_id": "a42bb0ca8636",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom1"
         },
         {
             "node_id": "50c7bfd8e75e",
@@ -2509,7 +2509,7 @@
         },
         {
             "node_id": "8416f9e8d1ec",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom3"
         },
         {
             "node_id": "30b5c2e301e8",
@@ -2557,7 +2557,7 @@
         },
         {
             "node_id": "687251408ba1",
-            "domain": "legacy"
+            "domain": "ffneuss_dom2"
         },
         {
             "node_id": "50c7bfbc530c",
@@ -2657,7 +2657,7 @@
         },
         {
             "node_id": "ec086b6c5b6e",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom2"
         },
         {
             "node_id": "30b5c23e969e",
@@ -2741,7 +2741,7 @@
         },
         {
             "node_id": "60e3279ac286",
-            "domain": "legacy_neuss"
+            "domain": "ffneuss_dom4"
         },
         {
             "node_id": "a42bb0ada294",

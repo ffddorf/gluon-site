@@ -25,7 +25,7 @@ msgstr ""
 "befindet, auszuwählen. Bitte denke daran, dass sich dein Knoten nur mit den "
 "Knoten der ausgewählten Domäne verbinden kann. Bitte wähle die Domäne anhand der Postleitzahl. "
 "Falls deine Postleitzahl nicht aufgeführt wird, verwende bitte eine andere Firmware."
-"Dieses Feld muss ausgefüllt werden um das Setup abzuschließen"
+"Dieses Feld muss ausgefüllt werden um das Setup abzuschließen."
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
