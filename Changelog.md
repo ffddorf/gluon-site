@@ -1,4 +1,7 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
+v1.6.4 (Gluon 2018.1.1)
+--------------------------------
+- Updated migrator.json to cover new nodes for migration
 
 v1.6.3 (Gluon 2018.1.1)
 --------------------------------
