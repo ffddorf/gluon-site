@@ -1,4 +1,10 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
+v1.7.0 (Gluon 2018.2)
+--------------------------------
+- Bumped version number to reflect switch to Gluon 2018.2
+- Cleaned up migrator.json and added left over nodes
+- Fixed broken autorestart cronjob package
+
 v1.6.4 (Gluon 2018.1.1)
 --------------------------------
 - Updated migrator.json to cover new nodes for migration
