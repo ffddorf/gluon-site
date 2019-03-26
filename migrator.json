@@ -1,83 +1,67 @@
 {
-    "timestamp": "2019-03-14T13:20:26.300Z",
+    "timestamp": "2019-03-26T13:20:26.300Z",
     "remigrate": false,
     "version": "1",
     "nodes": [
         {
-            "node_id": "704f57455e12",
-            "domain": "ffneuss_dom3"
-        },
-        {
-            "node_id": "8416f9e8d1ec",
-            "domain": "ffneuss_dom3"
-        },
-        {
-            "node_id": "30b5c23e8542",
-            "domain": "ffneuss_dom3"
-        },
-        {
-            "node_id": "30b5c23e847c",
-            "domain": "ffneuss_dom3"
-        },
-        {
             "node_id": "ec086b6c6614",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "d46e0ed032c4",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "d46e0ed03290",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18d6c751668e",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "d46e0ed032b0",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18d6c751a93e",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18d6c7516578",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18d6c75165fc",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "d46e0ef5c2d2",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18d6c7515212",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "ec086b6c5b58",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "d46e0ef5c35a",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "d46e0ed033d0",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "ec086b6c5dea",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18d6c751668a",
-            "domain": "ffneuss_dom2"
+            "domain": "legacy_neuss"
         },
         {
             "node_id": "18a6f759ee26",
@@ -90,6 +74,18 @@
         {
             "node_id": "18a6f7c5dd96",
             "domain": "ffneuss_dom5"
+        },
+        {
+            "node_id": "30b5c23e96d0",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "8416f9e8a86e",
+            "domain": "legacy_neuss"
+        },
+        {
+            "node_id": "c4e984f7c2bc",
+            "domain": "legacy_neuss"
         }
     ]
 }
