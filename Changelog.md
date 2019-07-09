@@ -1,4 +1,10 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
+v1.7.2 (Gluon 2018.2.2)
+--------------------------------
+- Switched to Gluon 2018.2.2
+- Added new FF Düsseldorf watchdog
+- Removed FF Rheinland from modules as the repo is no longer maintained
+
 v1.7.1 (Gluon 2018.2.1)
 --------------------------------
 - Switched to Gluon 2018.2.1
