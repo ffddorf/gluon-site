@@ -8,7 +8,6 @@ GLUON_FEATURES := \
 	ebtables-source-filter \
 	mesh-batman-adv-15 \
 	mesh-vpn-tunneldigger \
-	radvd \
 	respondd \
 	status-page \
 	web-advanced \
@@ -79,3 +78,7 @@ GLUON_ATH10K_MESH ?= 11s
 GLUON_REGION := eu
 
 GLUON_MULTIDOMAIN=1
+
+# Do not build images for deprecated devices
+GLUON_DEPRECATED ?= 1
+

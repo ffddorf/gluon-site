@@ -1,4 +1,10 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
+
+v1.8.0 (Gluon 2019.1)
+--------------------------------
+- Switched to Gluon 2019.1
+- Updated FF Düsseldorf watchdog to check for tunnel creation bug and removed redundant checks
+
 v1.7.3 (Gluon 2018.2.3)
 --------------------------------
 - Switched to Gluon 2018.2.3
