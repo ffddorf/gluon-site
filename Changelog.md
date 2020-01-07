@@ -1,5 +1,9 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
 
+v1.8.1 (Gluon 2019.1.1)
+--------------------------------
+- Switched to Gluon 2019.1.1
+
 v1.8.0 (Gluon 2019.1)
 --------------------------------
 - Switched to Gluon 2019.1
