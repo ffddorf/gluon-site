@@ -16,9 +16,7 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
 	gluon-autorestart \
 	gluon-ffddorf-watchdog \
-	gluon-domain-migrator \
-	iwinfo \
-	haveged
+	iwinfo
 
 USB_BASIC := \
 	kmod-usb-core \
@@ -63,7 +61,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 		$(USB_WIFI)
 endif
 
-DEFAULT_GLUON_RELEASE := v1.6.X-exp-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := v1.10.X-exp-$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
