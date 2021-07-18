@@ -1,5 +1,13 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
 
+v1.11.0 (Gluon 2021.1)
+--------------------------------
+- Switched to Gluon 2021.1
+
+v1.10.0 (Gluon 2020.2.2)
+--------------------------------
+- Switched to Gluon 2020.2.2
+
 v1.9.3 (Gluon 2020.1.3)
 --------------------------------
 - Switched to Gluon 2020.1.3
