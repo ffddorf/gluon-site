@@ -1,5 +1,9 @@
 Changelog for Freifunk Düsseldorf & Neuss gluon firmware
 
+v1.11.3 (Gluon 2021.1.2)
+--------------------------------
+- Security Fix Release
+
 v1.11.2 (Gluon 2021.1.1)
 --------------------------------
 - Added new VPN hosts & new network ranges
