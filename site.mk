@@ -8,6 +8,7 @@ GLUON_FEATURES := \
 	ebtables-source-filter \
 	mesh-batman-adv-15 \
 	mesh-vpn-tunneldigger \
+	mesh-vpn-fastd \
 	respondd \
 	status-page \
 	web-advanced \
