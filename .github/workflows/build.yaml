@@ -11,7 +11,7 @@ jobs:
     name: Gather targets
     runs-on: ubuntu-24.04
     outputs:
-      targets: ${{ steps.list.outputs.targets }}
+      targets: ${{ fromJson(steps.list.outputs.targets) }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,7 +21,9 @@ jobs:
         with:
           path: site
       - run: |
-          echo "targets=$(make list-targets)" >> $GITHUB_OUTPUT
+          TARGETS=$(make list-targets)
+          # save to output as json
+          echo "targets=[\"${TARGETS//$'\n'/\",\"}\"]" >> $GITHUB_OUTPUT
         id: list
 
   build:
