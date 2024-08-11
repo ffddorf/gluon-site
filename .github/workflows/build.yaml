@@ -17,8 +17,11 @@ jobs:
         with:
           repository: freifunk-gluon/gluon
           ref: ${{ env.GLUON_RELEASE }}
+      - uses: actions/checkout@v4
+        with:
+          path: site
       - run: |
-          "targets=$(make list-targets)" >> $GITHUB_OUTPUT
+          echo "targets=$(make list-targets)" >> $GITHUB_OUTPUT
         id: list
 
   build:
