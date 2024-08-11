@@ -48,12 +48,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: site
+
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get -y --no-install-recommends install \
             python2
+
       - name: Prepare Gluon
         run: make update
+
+      - name: Cache build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            packages
+            openwrt/build_dir
+            openwrt/staging_dir
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
+
       - name: Build Gluon Image
         run: make GLUON_TARGET="${{ matrix.target }}"
