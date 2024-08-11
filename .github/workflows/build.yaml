@@ -1,0 +1,40 @@
+name: Gluon
+
+on:
+  push:
+
+env:
+  GLUON_RELEASE: v2021.1.2
+
+jobs:
+  gather_targets:
+    name: Gather targets
+    runs-on: ubuntu-24.04
+    outputs:
+      targets: ${{ steps.list.outputs.targets }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: freifunk-gluon/gluon
+          ref: ${{ env.GLUON_RELEASE }}
+      - run: |
+          "targets=$(make list-targets)" >> $GITHUB_OUTPUT
+        id: list
+
+  build:
+    needs: gather_targets
+    name: Build Images
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        target: ${{ needs.gather_targets.outputs.targets }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: freifunk-gluon/gluon
+          ref: ${{ env.GLUON_RELEASE }}
+      - uses: actions/checkout@v4
+        with:
+          path: site
+      - run: |
+          echo "Not building target ${{ matrix.target }}"
