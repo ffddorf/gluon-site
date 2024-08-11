@@ -43,5 +43,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: site
-      - run: |
-          echo "Not building target ${{ matrix.target }}"
+      - name: Prepare Gluon
+        run: make update
+      - name: Build Gluon Image
+        run: make GLUON_TARGET="${{ matrix.target }}"
