@@ -5,13 +5,14 @@ on:
 
 env:
   GLUON_RELEASE: v2021.1.2
+  PREVIEW_TARGETS: '["x86_64", "ar71xx-generic", "ar71xx-tiny"]'
 
 jobs:
   gather_targets:
     name: Gather targets
     runs-on: ubuntu-24.04
     outputs:
-      targets: ${{ steps.list.outputs.targets }}
+      targets: ${{ github.ref_type == 'tag' && steps.list.outputs.targets || env.PREVIEW_TARGETS }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,7 +21,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: site
-      - run: |
+      - if: github.ref_type == 'tag'
+        run: |
           TARGETS=$(make list-targets)
           # save to output as json
           echo "targets=[\"${TARGETS//$'\n'/\",\"}\"]" >> $GITHUB_OUTPUT
