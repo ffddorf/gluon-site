@@ -7,6 +7,10 @@ env:
   GLUON_RELEASE: v2021.1.2
   PREVIEW_TARGETS: '["x86-64", "ar71xx-generic", "ar71xx-tiny"]'
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   gather_targets:
     name: Gather targets
@@ -33,6 +37,7 @@ jobs:
     name: Build Images
     runs-on: ubuntu-22.04
     strategy:
+      fail-fast: false
       matrix:
         target: ${{ fromJson(needs.gather_targets.outputs.targets) }}
     steps:
