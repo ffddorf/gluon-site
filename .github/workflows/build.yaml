@@ -70,9 +70,9 @@ jobs:
 
       - name: Debug cache restore
         run: |
-          ls -la packages/
-          ls -la openwrt/build_dir/
-          ls -la openwrt/staging_dir/
+          ls -la packages/ || true
+          ls -la openwrt/build_dir/ || true
+          ls -la openwrt/staging_dir/ || true
 
       - name: Build Gluon Image
         id: build
