@@ -66,6 +66,7 @@ jobs:
             openwrt/build_dir
             openwrt/staging_dir
           key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
+          save-always: true
 
       - name: Build Gluon Image
         run: make GLUON_TARGET="${{ matrix.target }}"
