@@ -55,9 +55,6 @@ jobs:
           sudo apt-get -y --no-install-recommends install \
             python2
 
-      - name: Prepare Gluon
-        run: make update
-
       - name: Cache build artifacts
         uses: actions/cache@v4
         with:
@@ -73,6 +70,9 @@ jobs:
           ls -la packages/ || true
           ls -la openwrt/build_dir/ || true
           ls -la openwrt/staging_dir/ || true
+
+      - name: Prepare Gluon
+        run: make update
 
       - name: Build Gluon Image
         id: build
