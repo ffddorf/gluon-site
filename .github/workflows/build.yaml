@@ -82,6 +82,13 @@ jobs:
         if: failure() && steps.build.conclusion == 'failure'
         run: make -j1 V=sc GLUON_TARGET="${{ matrix.target }}"
 
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: images-${{ matrix.target }}
+          path: output/images/
+          compression-level: 1
+
       - name: Save toolchain cache
         uses: actions/cache/save@v4
         if: always()
