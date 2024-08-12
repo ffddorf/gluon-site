@@ -69,4 +69,9 @@ jobs:
           save-always: true
 
       - name: Build Gluon Image
+        id: build
         run: make GLUON_TARGET="${{ matrix.target }}"
+
+      - name: Debug build failure
+        if: failure() && steps.build.conclusion == 'failure'
+        run: make -j1 V=sc GLUON_TARGET="${{ matrix.target }}"
