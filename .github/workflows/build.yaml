@@ -68,6 +68,12 @@ jobs:
           key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
           save-always: true
 
+      - name: Debug cache restore
+        run: |
+          ls -la packages/
+          ls -la openwrt/build_dir/
+          ls -la openwrt/staging_dir/
+
       - name: Build Gluon Image
         id: build
         run: make GLUON_TARGET="${{ matrix.target }}"
