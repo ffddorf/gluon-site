@@ -7,9 +7,9 @@ env:
   GLUON_RELEASE: v2022.1.4
   PREVIEW_TARGETS: '["x86-64", "ath79-generic"]'
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+# concurrency:
+  # group: ${{ github.workflow }}-${{ github.ref }}
+  # cancel-in-progress: true
 
 jobs:
   gather_targets:
@@ -35,7 +35,8 @@ jobs:
   build:
     needs: gather_targets
     name: Build Images
-    runs-on: ubuntu-22.04
+    # runs-on: ubuntu-22.04
+    runs-on: self-hosted
     strategy:
       fail-fast: false
       matrix:
