@@ -91,7 +91,7 @@ jobs:
 
       - name: Build Gluon Image
         id: build
-        run: make GLUON_TARGET="${{ matrix.target }}"
+        run: make -j16 GLUON_TARGET="${{ matrix.target }}"
 
       - name: Debug build failure
         if: failure() && steps.build.conclusion == 'failure'
