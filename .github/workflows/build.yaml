@@ -4,8 +4,8 @@ on:
   push:
 
 env:
-  GLUON_RELEASE: v2021.1.2
-  PREVIEW_TARGETS: '["x86-64", "ar71xx-generic", "ar71xx-tiny"]'
+  GLUON_RELEASE: v2022.1.4
+  PREVIEW_TARGETS: '["x86-64", "ath79-generic"]'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
