@@ -50,11 +50,11 @@ jobs:
         with:
           path: site
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get -y --no-install-recommends install \
-            python2
+      # - name: Install dependencies
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get -y --no-install-recommends install \
+      #       python2
 
       - name: Restore toolchain cache
         uses: actions/cache/restore@v4
