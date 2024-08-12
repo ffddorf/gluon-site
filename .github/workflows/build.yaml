@@ -62,7 +62,8 @@ jobs:
             packages
             openwrt/build_dir
             openwrt/staging_dir
-          key: &cache-key "${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps"
+          # keep this in sync with the key on the restore action!
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
 
       - name: Debug cache restore
         run: |
@@ -89,4 +90,4 @@ jobs:
             packages
             openwrt/build_dir
             openwrt/staging_dir
-          key: *cache-key
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
