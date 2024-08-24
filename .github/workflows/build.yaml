@@ -1,0 +1,115 @@
+name: Gluon
+
+on:
+  push:
+
+env:
+  GLUON_RELEASE: v2022.1.4
+  PREVIEW_TARGETS: '["x86-64", "ath79-generic"]'
+
+# concurrency:
+  # group: ${{ github.workflow }}-${{ github.ref }}
+  # cancel-in-progress: true
+
+jobs:
+  gather_targets:
+    name: Gather targets
+    runs-on: ubuntu-24.04
+    outputs:
+      targets: ${{ github.ref_type == 'tag' && steps.list.outputs.targets || env.PREVIEW_TARGETS }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: freifunk-gluon/gluon
+          ref: ${{ env.GLUON_RELEASE }}
+      - uses: actions/checkout@v4
+        with:
+          path: site
+      - if: github.ref_type == 'tag'
+        run: |
+          TARGETS=$(make list-targets)
+          # save to output as json
+          echo "targets=[\"${TARGETS//$'\n'/\",\"}\"]" >> $GITHUB_OUTPUT
+        id: list
+
+  build:
+    needs: gather_targets
+    name: Build Images
+    # runs-on: ubuntu-22.04
+    runs-on: self-hosted
+    strategy:
+      fail-fast: false
+      matrix:
+        target: ${{ fromJson(needs.gather_targets.outputs.targets) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: freifunk-gluon/gluon
+          ref: ${{ env.GLUON_RELEASE }}
+      - uses: actions/checkout@v4
+        with:
+          path: site
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get -y --no-install-recommends install \
+            git \
+            python3 \
+            python3-setuptools \
+            build-essential \
+            ecdsautils  \
+            gawk \
+            unzip \
+            libncurses-dev \
+            libz-dev  \
+            libssl-dev \
+            libelf-dev  \
+            wget \
+            rsync \
+            time  \
+            qemu-utils
+
+      - name: Restore toolchain cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            packages
+            openwrt/build_dir
+            openwrt/staging_dir
+          # keep this in sync with the key on the restore action!
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
+
+      - name: Debug cache restore
+        run: |
+          ls -la packages/ || true
+          ls -la openwrt/build_dir/ || true
+          ls -la openwrt/staging_dir/ || true
+
+      - name: Prepare Gluon
+        run: make update
+
+      - name: Build Gluon Image
+        id: build
+        run: make -j16 GLUON_TARGET="${{ matrix.target }}"
+
+      - name: Debug build failure
+        if: failure() && steps.build.conclusion == 'failure'
+        run: make -j1 V=sc GLUON_TARGET="${{ matrix.target }}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: images-${{ matrix.target }}
+          path: output/images/
+          compression-level: 1
+
+      - name: Save toolchain cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: |
+            packages
+            openwrt/build_dir
+            openwrt/staging_dir
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
