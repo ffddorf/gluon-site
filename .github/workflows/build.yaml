@@ -41,6 +41,9 @@ jobs:
       matrix:
         target: ${{ fromJson(needs.gather_targets.outputs.targets) }}
     steps:
+      - name: Free up disk space
+        run: rm -rf /opt/hostedtoolcache
+
       - uses: actions/checkout@v4
         with:
           repository: freifunk-gluon/gluon
