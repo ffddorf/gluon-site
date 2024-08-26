@@ -62,6 +62,7 @@ jobs:
 
       - name: Restore toolchain cache
         uses: actions/cache/restore@v4
+        id: cache-restore
         with:
           path: |
             openwrt/build_dir
@@ -70,9 +71,10 @@ jobs:
           key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
 
       - name: Mark cache as fresh
+        if: steps.cache-restore.outputs.cache-hit
         run: |
-          find openwrt/build_dir/{host*,toolchain-*} -name .built\* -exec touch {} \;
-          touch openwrt/staging_dir/{host*,toolchain-*}/stamp/.*
+          find openwrt/build_dir/{host*,toolchain-*} -name .built\* -exec touch {} \; || true
+          touch openwrt/staging_dir/{host*,toolchain-*}/stamp/.* || true
 
       - name: Debug cache restore
         run: |
