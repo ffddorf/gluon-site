@@ -40,6 +40,8 @@ jobs:
       fail-fast: false
       matrix:
         target: ${{ fromJson(needs.gather_targets.outputs.targets) }}
+    env:
+      CACHE_BUSTER: "1"
     steps:
       - name: Free up disk space
         run: rm -rf /opt/hostedtoolcache
@@ -62,11 +64,15 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: |
-            packages
             openwrt/build_dir
             openwrt/staging_dir
           # keep this in sync with the key on the restore action!
-          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
+
+      - name: Mark cache as fresh
+        run: |
+          find openwrt/build_dir/{host*,toolchain-*} -name .built\* -exec touch {} \;
+          touch openwrt/staging_dir/{host*,toolchain-*}/stamp/.*
 
       - name: Debug cache restore
         run: |
@@ -97,7 +103,6 @@ jobs:
         if: always()
         with:
           path: |
-            packages
             openwrt/build_dir
             openwrt/staging_dir
-          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
