@@ -65,8 +65,9 @@ jobs:
         id: cache-restore
         with:
           path: |
-            openwrt/build_dir
+            openwrt/dl
             openwrt/staging_dir
+            openwrt/feeds
           # keep this in sync with the key on the restore action!
           key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
 
@@ -105,6 +106,7 @@ jobs:
         if: always()
         with:
           path: |
-            openwrt/build_dir
+            openwrt/dl
             openwrt/staging_dir
+            openwrt/feeds
           key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
