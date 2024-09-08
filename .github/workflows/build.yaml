@@ -54,34 +54,17 @@ jobs:
         with:
           path: site
 
+      - name: Setup ccache
+        uses: hendrikmuhs/ccache-action@v1
+        with:
+          create-symlink: true
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-ccache
+
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get -y --no-install-recommends install \
             python2 qemu-utils
-
-      - name: Restore toolchain cache
-        uses: actions/cache/restore@v4
-        id: cache-restore
-        with:
-          path: |
-            openwrt/dl
-            openwrt/staging_dir
-            openwrt/feeds
-          # keep this in sync with the key on the restore action!
-          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
-
-      - name: Mark cache as fresh
-        if: steps.cache-restore.outputs.cache-hit
-        run: |
-          find openwrt/build_dir/{host*,toolchain-*} -name .built\* -exec touch {} \; || true
-          touch openwrt/staging_dir/{host*,toolchain-*}/stamp/.* || true
-
-      - name: Debug cache restore
-        run: |
-          ls -la packages/ || true
-          ls -la openwrt/build_dir/ || true
-          ls -la openwrt/staging_dir/ || true
 
       - name: Prepare Gluon
         run: make update
@@ -100,13 +83,3 @@ jobs:
           name: images-${{ matrix.target }}
           path: output/images/
           compression-level: 1
-
-      - name: Save toolchain cache
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: |
-            openwrt/dl
-            openwrt/staging_dir
-            openwrt/feeds
-          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-build-deps-${{ env.CACHE_BUSTER }}
