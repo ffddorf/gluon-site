@@ -1,0 +1,86 @@
+name: Gluon
+
+on:
+  push:
+
+env:
+  GLUON_RELEASE: v2022.1.4
+  PREVIEW_TARGETS: '["x86-64", "ath79-generic"]'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gather_targets:
+    name: Gather targets
+    runs-on: ubuntu-24.04
+    outputs:
+      targets: ${{ github.ref_type == 'tag' && steps.list.outputs.targets || env.PREVIEW_TARGETS }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: freifunk-gluon/gluon
+          ref: ${{ env.GLUON_RELEASE }}
+      - uses: actions/checkout@v4
+        with:
+          path: site
+      - if: github.ref_type == 'tag'
+        run: |
+          TARGETS=$(make list-targets)
+          # save to output as json
+          echo "targets=[\"${TARGETS//$'\n'/\",\"}\"]" >> $GITHUB_OUTPUT
+        id: list
+
+  build:
+    needs: gather_targets
+    name: Build Images
+    runs-on: ubuntu-22.04
+    strategy:
+      fail-fast: false
+      matrix:
+        target: ${{ fromJson(needs.gather_targets.outputs.targets) }}
+    env:
+      CACHE_BUSTER: "1"
+      CC: gcc
+    steps:
+      - name: Free up disk space
+        run: rm -rf /opt/hostedtoolcache
+
+      - uses: actions/checkout@v4
+        with:
+          repository: freifunk-gluon/gluon
+          ref: ${{ env.GLUON_RELEASE }}
+      - uses: actions/checkout@v4
+        with:
+          path: site
+
+      - name: Setup ccache
+        uses: hendrikmuhs/ccache-action@v1
+        with:
+          create-symlink: true
+          key: ${{ env.GLUON_RELEASE }}-${{ matrix.target }}-ccache
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get -y --no-install-recommends install \
+            python2 qemu-utils
+
+      - name: Prepare Gluon
+        run: make update
+
+      - name: Build Gluon Image
+        id: build
+        run: make GLUON_TARGET="${{ matrix.target }}"
+
+      - name: Debug build failure
+        if: failure() && steps.build.conclusion == 'failure'
+        run: make -j1 V=sc GLUON_TARGET="${{ matrix.target }}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: images-${{ matrix.target }}
+          path: output/images/
+          compression-level: 1
