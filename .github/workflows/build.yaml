@@ -42,6 +42,7 @@ jobs:
         target: ${{ fromJson(needs.gather_targets.outputs.targets) }}
     env:
       CACHE_BUSTER: "1"
+      CC: gcc
     steps:
       - name: Free up disk space
         run: rm -rf /opt/hostedtoolcache
